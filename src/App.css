@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+.story {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.story .story-meta-info, .comment-meta-info {
+  text-align: right;
+}
+
+.story .story-meta-info > span, .comment-meta-info > span {
+  padding-right: 15px;
+}
+
+.story .story-meta-info > span > label, .comment-meta-info > span > label {
+  font-weight: bold;
+  padding-left: 5px;
+}
+.comments-btn {
+  cursor: pointer;
+}
+.comments-container {
+  min-height: 100px;
+  margin: 2px;
+  border: 1px solid #ddd;
+}
+.comment {
+  padding: 5px;
+}
+.comment:nth-child(even) {
+  background-color: #dddddd61;
+}
+.comments-btn.disabled {
+  opacity: 0.5;
+}
